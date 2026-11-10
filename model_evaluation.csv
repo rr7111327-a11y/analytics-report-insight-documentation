@@ -1,0 +1,2 @@
+model,test_rows,MAE,RMSE,R2_score
+RandomForestRegressor,100,5.609,7.13,0.513

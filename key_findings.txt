@@ -1,0 +1,34 @@
+YUVA INTERN TASK 5 - KEY FINDINGS
+Project: Student Performance Analytics
+Dataset: Synthetic educational practice data; not real student records.
+
+DATA QUALITY
+- Rows analyzed: 500
+- Duplicate rows removed: records were checked before analysis.
+- Missing required values: rows with missing required fields were excluded.
+
+KEY PERFORMANCE INDICATORS
+- Average final score: 47.33/100
+- Median final score: 47.46/100
+- Average attendance: 77.35%
+- Average daily study time: 3.19 hours
+- Score-based pass rate (score >= 40): 78.40%
+
+RELATIONSHIPS
+- Factor most strongly correlated in absolute value with final score:
+  study_hours_per_day (correlation: 0.391)
+- Correlation indicates association, not proof of causation.
+
+MODEL CHECK
+- Model: RandomForestRegressor
+- Mean Absolute Error: 5.61
+- Root Mean Squared Error: 7.13
+- R-squared: 0.513
+- The model is an educational demonstration using synthetic data only.
+
+RECOMMENDATIONS
+1. Review students with low attendance and provide timely support.
+2. Encourage a consistent study routine and monitor progress monthly.
+3. Use assignment feedback to identify topic-level learning gaps.
+4. Review the charts and group averages before planning interventions.
+5. Collect real, consented, privacy-protected data before making operational decisions.
